@@ -1,0 +1,20 @@
+<suite name="StarHealthTest" verbose="1" parallel="class">
+
+<test name="starhealth001">
+<parameter name="name"  value="Siva Prasad"/>
+<parameter name="mobile"  value="7888943222"/>
+<parameter name="pin"  value="788877"/>
+<parameter name="email"  value="siva@gmail.com"/>	
+<classes>
+<class name="testpages.StarHealthPageTest">
+</class>
+</classes>
+</test>
+
+<test name="starhealth002">
+<classes>
+<class name="testpages.StarHealthPageTest2">
+</class>
+</classes>
+</test>
+</suite>

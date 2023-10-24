@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [StarHealthTest]">
+  <test thread-count="5" name="starhealth001(failed)">
+    <parameter name="pin" value="788877"/>
+    <parameter name="name" value="Siva Prasad"/>
+    <parameter name="mobile" value="7888943222"/>
+    <parameter name="email" value="siva@gmail.com"/>
+    <classes>
+      <class name="testpages.StarHealthPageTest">
+        <methods>
+          <include name="InitalizeExtentReport"/>
+          <include name="Open_Browser"/>
+          <include name="close_Browser"/>
+          <include name="Get_Value"/>
+          <include name="generateReports"/>
+          <include name="generateTestStatus"/>
+        </methods>
+      </class> <!-- testpages.StarHealthPageTest -->
+    </classes>
+  </test> <!-- starhealth001(failed) -->
+</suite> <!-- Failed suite [StarHealthTest] -->
